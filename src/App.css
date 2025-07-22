@@ -1,13 +1,17 @@
 .App {
   text-align: center;
+  padding: 16px;
+  max-width: 100%; 
+  overflow-x: hidden;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 30vmin;
   pointer-events: none;
+  max-height: 150px; 
 }
 
-@media (prefers-reduced-motion: no-preference) {
+@media(prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
@@ -15,7 +19,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 0vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -26,6 +30,14 @@
 
 .App-link {
   color: #61dafb;
+}
+.boutiques-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    padding: 12px; 
+
 }
 
 @keyframes App-logo-spin {
