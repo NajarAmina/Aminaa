@@ -1,5 +1,5 @@
-import ResponsiveContainer from "../common/ResponsiveContainer";
-import "./header.css";
+
+import "./header.scss";
 import { TiHomeOutline } from "react-icons/ti";
 import { GrBasket } from "react-icons/gr";
 import { FaRegHeart } from "react-icons/fa";
@@ -8,8 +8,7 @@ import { BiLogOut } from "react-icons/bi";
 
 export function Header() {
   return (
-    <ResponsiveContainer>
-      <div className="responsive-grid">
+  
         <header>
           <div className="logo">
             <img src="easyshop.png" alt="EASYSHOPtn Logo" />
@@ -41,7 +40,6 @@ export function Header() {
             </a>
           </div>
         </header>
-      </div>
-    </ResponsiveContainer>
+  
   );
 }

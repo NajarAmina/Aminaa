@@ -1,5 +1,9 @@
 .aboutus {
 margin-top: 50px;
+        @media (max-width: 768px) {
+      flex-direction: column;
+   
+}
 }
 .aboutus h2{
     color: black;

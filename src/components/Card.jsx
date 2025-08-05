@@ -6,7 +6,7 @@ export function Card({ name, price, image, page }) {
   // let panier = [];
   function addProduct(product) {
     setPanier((prev) => {
-      console.log("ele;ent", prev);
+      console.log("element", prev);
       return [...prev, product];
     });
   }

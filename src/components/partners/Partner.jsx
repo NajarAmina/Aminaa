@@ -1,6 +1,6 @@
-import ResponsiveContainer from "../common/ResponsiveContainer";
+
 import { Shopcard } from "../Shopcard";
-import "./partner.css";
+import "./partner.scss";
 export function Partner(params) {
   const partners = [
     {
@@ -31,8 +31,8 @@ export function Partner(params) {
     },
   ];
   return (
-    <ResponsiveContainer>
-      <div className="responsive-grid">
+ 
+  
         <div className="shops" id="mes-boutiques">
           <h2>Nos Boutiques Partenaires</h2>
           <div className="shop-card">
@@ -47,7 +47,6 @@ export function Partner(params) {
             ))}
           </div>
         </div>
-      </div>
-    </ResponsiveContainer>
+ 
   );
 }

@@ -1,10 +1,9 @@
-import ResponsiveContainer from "../common/ResponsiveContainer";
+
 import "./about-us.css";
 
 export function Aboutus() {
   return (
-    <ResponsiveContainer>
-      <div className="responsive-grid">
+  
         <div className="aboutus" id="aboutus">
           <h2>Notre histoire</h2>
           <p>
@@ -15,7 +14,6 @@ export function Aboutus() {
             manière féminine et authentique
           </p>
         </div>
-      </div>
-    </ResponsiveContainer>
+ 
   );
 }

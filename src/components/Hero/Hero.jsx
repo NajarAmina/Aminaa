@@ -1,5 +1,5 @@
 import { Card } from "../Card";
-import "./hero.css";
+import "./hero.scss";
 import Button from "@mui/material/Button";
 
 export function Hero(params) {
